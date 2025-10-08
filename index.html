@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insta Share Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body
+    class="d-flex align-items-center justify-content-center min-vh-100 bg-light"
+  >
+    <div class="container" id="Sectionpage">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12 col-md-6 text-center mb-4 mb-md-0">
+          <img
+            src="file:///C:/Users/afsha/OneDrive/Desktop/image1.webp"
+            class="img-fluid image"
+          />
+        </div>
+
+        <div class="col-12 col-md-5 d-flex justify-content-center shadow">
+          <div class="login-card w-100 p-4">
+            <div class="text-center mb-3">
+              <img src="" class="logo mb-2" />
+              <h4 class="heading text-dark">Insta Share</h4>
+            </div>
+
+            <form>
+              <div class="form-group d-flex flex-column">
+                <label for="username"> USERNAME </label>
+                <input type="text" placeholder="Enter Username" />
+              </div>
+
+              <div class="form-group d-flex flex-column">
+                <label for="password"> PASSWORD </label>
+                <input type="password" placeholder="Enter Password" />
+              </div>
+
+              <button
+                class="login-btn bg-primary w-100 p-1"
+                onclick="display('SectionLandingPage')"
+              >
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

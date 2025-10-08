@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.image {
+  max-width: 400px;
+}
+
+.heading {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 380px;
+}
+
+label {
+  font-size: 13px;
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: #0095f6;
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #0095f6;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #0078d7;
+}
